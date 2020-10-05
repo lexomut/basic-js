@@ -4,7 +4,7 @@
   "description": "Tasks for RSS",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "mocha --inline-diffs test.js"
   },
   "scripts": {
     "test": "mocha test.js"
